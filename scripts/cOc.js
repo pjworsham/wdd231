@@ -91,4 +91,28 @@ const courses = [
         ],
         completed: false
     }
-]
+];
+
+function renderCourses(filteredCourses) {
+    const courseList = document.querySelector(`#courseList`);
+    courseList.innerHTML = ``; //clear existing content
+
+    filteredCourses.forEach(element => {
+        const course = document.createElement(`div`);
+        course.setAttribute(`class`, `courseItem`)
+        course.innerHTML = `
+            <p> ${element.subject} ${element.number} </p>
+        `;
+        courseList.appendChild(course)
+    })
+       
+   
+
+  
+    
+}
+ //Default render: show all courses
+ renderCourses(courses);
+ 
+ 
+ 
