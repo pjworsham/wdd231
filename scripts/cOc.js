@@ -105,14 +105,29 @@ function renderCourses(filteredCourses) {
         `;
         courseList.appendChild(course)
     })
-       
-   
-
-  
-    
 }
  //Default render: show all courses
  renderCourses(courses);
- 
- 
+
+ const all = document.querySelector(`#all`);
+ all.addEventListener(`click`, () => {
+    renderCourses(courses);
+ })
+
+ const cse = document.querySelector(`#cse`);
+ cse.addEventListener(`click`, () => {
+    const cseCourses = courses.filter(course => {
+        return course.subject === `CSE`;
+    })
+    renderCourses(cseCourses);
+    
+ })
+
+ const wdd = document.querySelector(`#wdd`);
+ wdd.addEventListener(`click`, () => {
+    const wddCourses = courses.filter(course => {
+        return course.subject === `WDD`;
+    })
+    renderCourses(wddCourses);
+ })
  
