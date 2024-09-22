@@ -1,0 +1,19 @@
+@media only screen and (min-width: 38rem) {
+
+    #myButton {
+        display: none;
+    }
+    ul.menuLinks, ul.menuLinks.open {
+        display: flex;
+        justify-content: space-around;
+    }
+    ul.menuLinks a:hover {
+        background-color: #A7CFF2;
+    }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;   
+    }
+
+}

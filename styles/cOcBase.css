@@ -4,7 +4,8 @@ body {
 }
 
 nav {
-   font-weight: 100; 
+   font-weight: 300; 
+   background-color: #68A69B;
 }
 
 
@@ -37,7 +38,8 @@ ul.menuLinks li a {
     display: block;
     padding: .75rem 2vw;
     color: black;
-    /* font-weight: 600; */
+    font-size: 1.5rem;
+    font-weight: 600;
     text-decoration: none;
 }
 
@@ -57,7 +59,7 @@ ul.menuLinks {
 }
 
 ul.menuLinks.open {
-    display: black;
+    display: block;
 }    
 
     
