@@ -11,32 +11,18 @@
         background-color: #A7CFF2;
     }
 
-    .flexbox-container {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-    }
-    
     .flexbox-item {
         border: 1px solid black;
         background-color: rgb(248, 245, 243); 
        
     }
+    .flexbox-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
     
-    .flexbox-container .flexbox-item-1 {
-        grid-column: 1/3;
-        grid-row: 1/3;
-            
-    }
-
-    .flexbox-container .flexbox-item-2 {
-        grid-column: 2/3;
-        grid-row: 1/3;
-    }
-
-    /* .flexbox-container .flexbox-item-3 {
-        grid-column: 2/2;
-        grid-row: 3/3;
-    } */
+    
+    
 
 }
