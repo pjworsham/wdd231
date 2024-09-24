@@ -135,6 +135,12 @@ function renderCourses(filteredCourses) {
  })
 
 
+const credits = document.querySelector(`#creditNumber`);
+const total = courses.reduce((accumulator, current) => {
+    return accumulator += current.credits
+},0)
+credits.innerHTML = total
+
 
 
  
