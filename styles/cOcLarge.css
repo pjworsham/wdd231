@@ -12,16 +12,19 @@
     }
 
     .flexbox-container {
-        display: flex;
-        
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
     }
-
+    
     .flexbox-item {
         border: 1px solid black;
-        background-color: rgb(248, 245, 243);    
+        background-color: rgb(248, 245, 243);   
+       
     }
+    
+  
+
  
-   
-}
 
 
