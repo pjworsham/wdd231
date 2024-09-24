@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Canton Chamber of Commerce</title>
     <meta name="description" content="Chamber of Commerce | wdd231 - Web Frontend Development 1">
-    <meta name="author" content="Pam Worsham"> 
+    <meta name="author" content="Pam Worsham">
     <script src="scripts/cOc.js" defer></script>
     <link rel="stylesheet" href="styles/cOcBase.css">
     <link rel="stylesheet" href="styles/cOcLarge.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <header>
-        <h1>Header</h1>
+        <h1>Pam Worsham</h1>
         <nav>
             <!-- button id and menu links is for hamburger icon -->
             <button id="myButton" aria-label="button"></button>
@@ -30,35 +33,43 @@
     </header>
 
     <main>
-        
+
         <div class="flexbox-container">
-            <div class="flexbox-item flexbox-item-1">
-                <h1>Course Work</h1>
-                <p>information</p>
-            </div>
-            
-            <div class="flexbox-item flexbox-item-2">
-                <h1>Georgia, Canton</h1>   
-                ><p>picture</p>
-            </div>
-            
-            <div class="flexbox-item flexbox-item-3">
+            <section>
+                <div class="flexbox-item flexbox-item-1">
+                    <h1>Course Work</h1>
+                    <p>information</p>
+                </div>
+            </section>
+            <section>
+                <div class="flexbox-item flexbox-item-2">
+                    <h1>Georgia, Canton</h1>
+
+                    ><p>picture</p>
+                </div>
+            </section>
+
+
+            <section>
+                <div class="flexbox-item flexbox-item-3">
                     <h1>Web and Computer Programming Certificate</h1>
                     <div class="filter-container">
                         <button id="all">ALL</button>
-                        <button id="cse">CSE</button>   
+                        <button id="cse">CSE</button>
                         <button id="wdd">WDD</button>
                     </div>
                     <div id="courseList"></div>
-                    <p><span id="creditNumber"></span> Credits</p>   
-            </div>
+                    <p><span id="creditNumber"></span> Credits</p>
+                </div>
+            </section>
         </div>
     </main>
 
     <footer>
         <p>&copy;<span id="currentYear"></span> | Pam Worsham | Georgia</p>
         <p id="lastModified"></p>
-       
+
     </footer>
 </body>
+
 </html>
