@@ -18,6 +18,10 @@ nav {
    font-weight: 300; 
    background-color: #68A69B;
 }
+
+.menuLinks {
+    touch-action: auto;
+}
  
 .flexbox-container {
     display: flex;
@@ -85,7 +89,7 @@ nav {
 }
 
 .courseItem {
-    background-color: rgb(247, 244, 225);
+    background-color: rgb(247, 197, 151);
     font-size: 1rem;
 }
 .completed {
@@ -156,7 +160,7 @@ ul.menuLinks.open {
 }    
 
 footer {
-    font-size: 1.25rem;
+    font-size: 1rem;
     background-color: #68A69B;
     color: white;
     text-align: center;
