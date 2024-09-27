@@ -1,0 +1,20 @@
+@media only screen and (min-width: 38rem) {
+
+    #cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+
+    }
+
+    body {
+        background-color: rgb(57, 57, 104);
+        padding-left: 1rem;
+        padding-right: 1rem;
+        
+    }
+    
+    h1 {
+        color: white;
+        
+    }
+}

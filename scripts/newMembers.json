@@ -1,0 +1,18 @@
+{
+    "familyName": "Autry",
+    "moveInDate": "2024-7-15",
+    "numberOfPeople": 2,
+    "visitedByBishop": true,
+    "familyMembers": [ {
+        "name": "Mike Autry",
+        "gender": "Male",
+        "birthdate": "1968-2-3"
+    },
+    {
+        "name": "Amy Autry",
+        "gender": "Female",
+        "birthdate": "1969-12-23" 
+    }
+
+    ]
+}

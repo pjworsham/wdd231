@@ -1,0 +1,42 @@
+
+
+header {
+    color: rgba(17, 6, 121, 0.459);  
+    text-align: center;
+    box-shadow: 0px 5px 10px gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+section {
+    text-align: center;
+    margin: 0 auto;
+    border: 2px solid black;
+    background-color: rgb(130, 160, 199); 
+    margin-bottom: .50rem; 
+    width: 100%;
+}
+
+h2 {
+    font-size: 1rem;
+    padding-bottom: .75rem;
+    margin: 0 auto;
+    padding-top: .75rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h3 {
+    margin: 0 auto;
+    font-size: .70rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+img {
+    margin-top: 1rem;
+    box-shadow: 0px 5px 10px gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 50%;
+    height: 50%;
+}
+footer {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    
+}
+
