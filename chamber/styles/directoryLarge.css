@@ -1,6 +1,23 @@
+@media only screen and (min-width: 38rem) {
 
+    /* This is for my nav */
+    #myButton {
+        display: none;
+    }
 
+    ul.menuLinks, ul.menuLinks.open {
+        display: flex;
+        justify-content: space-around;
+    }
+    ul.menuLinks a:hover {
+        background-color: #A7CFF2;
+    }
 
+    /* this is the main */
+    main {
+        max-width: 900px;
+        margin: 0 auto;
+    }
 
 
 
