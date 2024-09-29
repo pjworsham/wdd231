@@ -1,0 +1,91 @@
+
+
+body {
+    font-family: "Open Sans", sans-serif; 
+}
+
+header {
+    font-size: .75rem;
+    background-color: #68A69B;
+    color: white;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;    
+}
+
+/* This is for the hamburger icon code*/
+
+#myButton::before {
+    content: "\2630";
+    color: white;
+}
+
+/* the actual hamburger icon */
+#myButton {
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: black;
+    cursor: pointer;
+    width: 44px;
+    text-align: right;
+    padding: .25rem 2vw;
+    position: absolute;
+    top: 0;
+    right: 2vw;
+}
+
+ul.menuLinks li a {
+    display: block;
+    padding: .75rem 2vw;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+li.current-menu-item a {
+    background-color: black
+}
+
+ul.menuLinks {
+    display: none;
+    list-style-type: none; /*effects large */
+}
+
+#myButton.open::before {
+    content: "x";
+    color: white;
+}
+
+ul.menuLinks.open {
+    display: block;
+}  
+
+/* this is for nav */
+nav {
+    font-weight: 300; 
+    background-color: #68A69B;
+}
+.menuLinks {
+    touch-action: auto;
+}
+
+
+
+
+
+
+
+
+
+/* this is for the footer */
+footer {
+    font-size: 1rem;
+    background-color: #68A69B;
+    color: white;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    
+}
