@@ -1,57 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Pam Worsham | Directory</title>
-        <meta name="description" content="Directory | wdd231 - Web Frontend Development I">
-        <meta name="author" content="Pam Worsham">
-        <meta property="og:title" content="Canton Chamber of Commerce - Pam J Worsham">
-        <meta property="og:type" content="website" />
-        <meta property="og.description" content="Canton Chamber of Commerce home page">
-        <meta property="og:image"
-            content="https://explorecantonga.com/imager/cmsimages/841933/637844212444330000_91852798b59be8b28fc00edfe4aec23a.jpg">
-        <meta property="og.image:alt" content="City of Canton">
-        <meta property="og:url" content="https://pjworsham.github.io/wdd231/chamber/">
-        <meta property="og.url" content="https://www.facebook.com/pam.e.worsham/">
-        <meta property="og.image:alt" content="Facebook">
 
-        <script src="scripts/directory.js" defer></script>
-        <link rel="stylesheet" href="styles/directoryBase.css">
-        <link rel="stylesheet" href="styles/directoryLarge.css">
-    
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-            rel="stylesheet">
-        <link rel="icon" href="favicon.ico">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pam Worsham | Directory</title>
+    <meta name="description" content="Directory | wdd231 - Web Frontend Development I">
+    <meta name="author" content="Pam Worsham">
+    <meta property="og:title" content="Cherokee Chamber of Commerce - Pam J Worsham">
+    <meta property="og:type" content="website" />
+    <meta property="og.description" content="Cherokee Chamber of Commerce home page">
+    <meta property="og:image"
+        content="https://www.teamleehomes.com/thumbs/800x600/r/uploads/CherokeeCountyGeorgia.34.jpg">
+    <meta property="og.image:alt" content="cherokee of Canton">
+    <meta property="og:url" content="https://pjworsham.github.io/wdd231/chamber/">
+    <meta property="og.url" content="https://www.facebook.com/pam.e.worsham/">
+    <meta property="og.image:alt" content="Facebook">
+
+    <script src="scripts/directory.js" defer></script>
+    <link rel="stylesheet" href="styles/directoryBase.css">
+    <link rel="stylesheet" href="styles/directoryLarge.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+</head>
+
 <body>
     <header>
-        <h1>Canton Chamber of Commercr</h1>
+        <img class="logo" src="images/CherokeeCountyGeorgiaLogo.webp" alt="Cherokee logo">
+
+        <div id="title">
+            <h1>Cherokee</h1>
+            <h2>Chamber of Commerce</h2>
+        </div>
+
         <nav>
             <!-- button id and menu links is for hamburger icon -->
             <button id="myButton" aria-label="button"></button>
             <ul class="menuLinks">
                 <li><a href="#" class="active">Home</a></li>
-                <li><a href="#">Chamber</a></li>
-                <li><a href="#">GitHub Profile</a></li>
-                <li><a href="https://www.linkedin.com/in/pam-worsham/">LinkedIn</a></li>
+                <li><a href="#">Discover</a></li>
+                <li><a href="#">Business Directory</a></li>
+                <li><a href="#">Join</a></li>
             </ul>
         </nav>
     </header>
+    <main>
+        <div>
+            <img src="images/CherokeeCountyGeorgia.34.jpg" alt="cherokee county" class="heroImg">
+            <h2>Home</h2>
+            <div class="container">
+                <section>
+                    <div id="event">
+                        <h3>Events</h3>
+                    </div>
 
+                    <div class="event">
+                        <p>blank for now</p>
+                    </div>
+                </section>
+
+                <section>
+                    <div id="weather">
+                        <h3>Weather</h3>
+                    </div>
+                    
+                    <div class="weather">
+                        <p>test</p>
+                    </div>
+                </section>
+                
+                <section>
+                    <div id="forecast">
+                        <h3>Weather Forecast</h3>
+                    </div>
+                    
+                    <div class="forecast">
+                        <p>test</p>
+                    </div>
+                </section>
+            </div>
+            
+            <div class="card"> 
+                <section id="businessCard1">
+                    <div class="cardHeader1">
+                        <img src="images/CherokeeOrtho.png" alt="ortho icon" class="img1">
+                        <div class="contactInfo1">
+                            <h3>Cherokee Family Orthodontics<br>Orthodontists</h3>
+                            <p>EMAIL: FamilyOrtho@CFO.org</p>
+                            <p>PHONE: 770-765-0555</p>
+                            <p>URL: https://www.cherokeefamilyorthodontics.com/</p>
+                        </div>
+                    </div>
+                </section>
+                
+                <section id="businessCard1">
+                    <div class="cardHeader1">
+                        <img src="images/cityVet.png" ortho icon" class="img2">
+                        <div class="contactInfo1">
+                            <h3>CityVet-Woodstock<br>Veterinary Services</h3>
+                            <p>EMAIL: woodstock@cityvet.com</p>
+                            <p>PHONE: 678-280-7323</p>
+                            <p>URL: https://www.cityvet.com/location/woodstock/ </p>
+                        </div>
+                    </div>
+                </section>
+                
+                <section id="businessCard1">
+                    <div class="cardHeader1">
+                        <img src="images/littleLeafPlay.png" alt="ortho icon" class="img1">
+                        <div class="contactInfo1">
+                            <h3>LIttle Leaf Play Studio<br>Amusements</h3>
+                            <p>EMAIL: littlleaf@littleleafplay.com</p>
+                            <p>PHONE: 678-540-6866</p>
+                            <p>URL: hhttps://www.littleleafplaystudio.com/</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+                
+                
+            </div>
+
+    </main>
 
 
     <footer>
-        <p>Canton Chamber of Commerce</p>
-        <p>110 Academy Street, Canton Georgia 30114 </p>
-        <p>WDD231 Class Project</p>
-        <p>Pam J Worsham</p>
-        <p>&copy;<span id="currentYear"></span> Canton Chamber of Commerce</p>
-        <p id="lastModified"></p>
+        <p id="footerName">Cherokee Chamber of Commerce<br>3605 Marietta Hwy, Canton Georgia 30114<br>info@cherokeechamber.com<br>(770) 345.0400</p>
+
+        <div class="social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/facebook.png" alt="fb icon" width="100" height="100" loading="lazy">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/twitter.png" alt="twitter icon" width="100" height="100" loading="lazy">
+            </a>
+            <a href="https://www.linkedin.com/feed/" target="_blank">
+                <img src="images/linkedIn.jpeg" alt="linkedIn icon" width="100" height="100" loading="lazy">
+            </a>
+        </div>
+        <div>
+            <p>WDD231 Class Project</p>
+            <p>Pam J Worsham</p>
+            <p>&copy;<span id="currentYear"></span> Cherokee Chamber of Commerce</p>
+            <p id="lastModified"></p>
+        </div>
 
     </footer>
 
 </body>
+
 </html>

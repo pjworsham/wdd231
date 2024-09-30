@@ -1,5 +1,19 @@
 @media only screen and (min-width: 38rem) {
 
+    .logo {
+        max-width: 6rem;
+        height: auto;    
+    }
+
+
+    header h1 {
+        font-size: 35px;
+    }
+    
+    header h2 {
+        font-size: 25px;
+    }
+
     /* This is for my nav */
     #myButton {
         display: none;
@@ -19,12 +33,33 @@
         margin: 0 auto;
     }
 
+    main h2 {
+        margin: 0 auto;
+    }
 
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1rem;
 
+    }
 
+    .card {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1rem; 
+    }
 
+        footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        }
 
-
+        footer .social {
+         
+          
+           
+            
 
 
 
