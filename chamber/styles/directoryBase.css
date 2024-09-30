@@ -25,7 +25,13 @@ header {
     
 }
 
+header h2, h1 {
+    margin: 0 auto;
+}
 
+header h1 {
+    padding-top: .75rem;
+}
 
 /* This is for the hamburger icon code*/
 
