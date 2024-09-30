@@ -1,8 +1,8 @@
 [
     {
-        "Title": "B&B Social",
+        "title": "B&B Social",
         "names": "Restaurants",
-        "addresses": "130 E Main Street, Suite 100, Canton GA 30114",
+        "address": "130 E Main Street, Suite 100, Canton GA 30114",
         "phoneNumber": "770.355.3574",
         "url": "https://bandbsocial.com/",
         "images": "images/bandbsocial.png",
@@ -11,9 +11,9 @@
     },
 
     {
-        "Title": "Cherokee County Health Department",
+        "title": "Cherokee County Health Department",
         "names": "Nonprofit Organizations",
-        "addresses": "7545 Main St., Building 100, Woodstock GA 30188",
+        "address": "7545 Main St., Building 100, Woodstock GA 30188",
         "phoneNumber": "770.928.0133",
         "url": "https://dph.georgia.gov/locations/cherokee-county-health-department-0",
         "images": "images/cherokeeCountyHealthDept.png",
@@ -22,9 +22,9 @@
     },
 
     {
-        "Title": "CityVet - Woodstock",
+        "title": "CityVet - Woodstock",
         "names": "Veterinary Services",
-        "addresses": "289 Ridgewalk Parkway, Suite 108, Woodstock, GA 30188",
+        "address": "289 Ridgewalk Parkway, Suite 108, Woodstock, GA 30188",
         "phoneNumber": "678.280.7323",
         "url": "https://www.cityvet.com/location/woodstock/",
         "images": "images/cityVet.png",
@@ -33,9 +33,9 @@
     },
 
     {
-        "Title": "Cox Arboretum & Gardens",
+        "title": "Cox Arboretum & Gardens",
         "names": "Gardens",
-        "addresses": "1621 N Lake Drive, Canton GA 30115",
+        "address": "1621 N Lake Drive, Canton GA 30115",
         "phoneNumber": "678.464.7815",
         "url": "https://coxgardens.com/",
         "images": "images/coxArboretum.png",
@@ -43,9 +43,9 @@
 
     },
     {
-        "Title": "Little Leaf Play Studio",
+        "title": "Little Leaf Play Studio",
         "names": "Amusements",
-        "addresses": "12186 Highway 92, Woodstock GA 30188",
+        "address": "12186 Highway 92, Woodstock GA 30188",
         "phoneNumber": "678.540.6866",
         "url": "https://www.littleleafplaystudio.com/",
         "images": "images/littleLeafPlay.png",
@@ -54,9 +54,9 @@
     },
 
     {
-        "Title": "Cherokee Family Orthodontics",
+        "title": "Cherokee Family Orthodontics",
         "names": "Orthodontists",
-        "addresses": "7117 Main Street, Woodstock GA 30188",
+        "address": "7117 Main Street, Woodstock GA 30188",
         "phoneNumber": "770.765.0555",
         "url": "https://www.cherokeefamilyorthodontics.com/",
         "images": "images/cherokeeOrtho.png",
@@ -65,9 +65,9 @@
     },
 
     {
-        "Title": "Cobra Southeast Construction",
+        "title": "Cobra Southeast Construction",
         "names": "Concrete Contractors",
-        "addresses": "119 Gateway Drive, Canton GA 30115",
+        "address": "119 Gateway Drive, Canton GA 30115",
         "phoneNumber": "770.599.2098",
         "url": "https://www.cobrasoutheast.com/",
         "images": "images/cobraSoutheast.png",
