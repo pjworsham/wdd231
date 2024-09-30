@@ -86,6 +86,8 @@ ul.menuLinks.open {
 nav {
     font-weight: 300; 
     background-color: #68A69B;
+    padding-top: 1rem;
+    
 }
 .menuLinks {
     touch-action: auto;
