@@ -15,7 +15,7 @@ hamburgerElement.addEventListener('click', () => {
 
 const url = "https://pjworsham.github.io/wdd231/chamber/data/members.json"
 const membersCard = document.querySelector(`#membersCard`);
-
+const membersList = document.querySelector(`#membersList`);
 
 async function getMembersData() {
     const response = await fetch(url);
@@ -24,6 +24,8 @@ async function getMembersData() {
 } 
 
 async function createMemberCards() {
+    membersCard.innerHTML = ``;
+    membersList.innerHTML = ``;
     const data = await getMembersData();
     data.forEach(member => {
         const card = document.createElement(`div`);
@@ -46,7 +48,27 @@ async function createMemberCards() {
     });        
 }
 
+async function createMemberList() {
+    membersCard.innerHTML = ``;
+    membersList.innerHTML = ``;
+    const data = await getMembersData();
+    data.forEach(member => {
+        const list = document.createElement(`div`)
+        list.setAttribute(`id`, `businessList`);
 
+        list.innerHTML = `
+        <div class="listHeader">
+            <div class="contactInfo1">
+                <h3>${member.title}</h3>
+                <p> ${member.address}</p>
+                <p> ${member.phoneNumber}</p>
+            </div>
+        </div>
+
+        `;
+        membersList.appendChild(list);
+    })
+}
 
 const cardView = document.querySelector(`#cardView`);
 const listView = document.querySelector(`#listView`);
@@ -56,7 +78,7 @@ cardView.addEventListener(`click`, () => {
 })
 
 listView.addEventListener(`click`, () => {
-
+    createMemberList();
 })
 
 
