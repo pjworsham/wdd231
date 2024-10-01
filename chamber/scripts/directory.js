@@ -20,10 +20,11 @@ const membersCard = document.querySelector(`#membersCard`);
 async function getMembersData() {
     const response = await fetch(url);
     const data = await response.json();
-    createMemberCards(data);
+    return data;
 } 
 
-function createMemberCards(data) {
+async function createMemberCards() {
+    const data = await getMembersData();
     data.forEach(member => {
         const card = document.createElement(`div`);
         card.setAttribute(`id`, `businessCard1`);
@@ -51,7 +52,7 @@ const cardView = document.querySelector(`#cardView`);
 const listView = document.querySelector(`#listView`);
 
 cardView.addEventListener(`click`, () => {
-    getMembersData();
+    createMemberCards();
 })
 
 listView.addEventListener(`click`, () => {
@@ -59,5 +60,5 @@ listView.addEventListener(`click`, () => {
 })
 
 
-getMembersData();
+createMemberCards();
 
