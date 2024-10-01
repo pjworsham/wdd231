@@ -7,14 +7,11 @@
     }
     header {
         display: grid;
-        grid-template-columns: 100px 1fr 1fr;
-
-
-
+        grid-template-columns: 120px 1fr 1fr;
     }
 
     header h1 {
-        font-size: 25px;
+        font-size: 30px;
     }
     
     header h2 {
@@ -31,7 +28,7 @@
         justify-content: space-around;
     }
     ul.menuLinks a:hover {
-        background-color: #A7CFF2;
+        background-color: #b9bdc0;
     }
 
     /* this is the main */
