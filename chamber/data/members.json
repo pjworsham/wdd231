@@ -6,6 +6,8 @@
         "phoneNumber": "770.355.3574",
         "url": "https://bandbsocial.com/",
         "images": "images/bandbsocial.png",
+            "width": 100,
+            "height": 100,
         "membershipLevel": 3
 
     },
@@ -17,6 +19,8 @@
         "phoneNumber": "770.928.0133",
         "url": "https://dph.georgia.gov/locations/cherokee-county-health-department-0",
         "images": "images/cherokeeCountyHealthDept.png",
+            "width": 100,
+            "height": 100,
         "membershipLevel": 1
 
     },
@@ -28,6 +32,8 @@
         "phoneNumber": "678.280.7323",
         "url": "https://www.cityvet.com/location/woodstock/",
         "images": "images/cityVet.png",
+            "width": 100,
+            "height": 100,
         "membershipLevel": 1
 
     },
@@ -39,6 +45,8 @@
         "phoneNumber": "678.464.7815",
         "url": "https://coxgardens.com/",
         "images": "images/coxArboretum.png",
+            "width": 100,
+            "height": 100,
         "membershipLevel": 2
 
     },
@@ -49,6 +57,8 @@
         "phoneNumber": "678.540.6866",
         "url": "https://www.littleleafplaystudio.com/",
         "images": "images/littleLeafPlay.png",
+            "width": 100,
+            "height": 100,
         "membershipLevel": 1
 
     },
@@ -60,6 +70,8 @@
         "phoneNumber": "770.765.0555",
         "url": "https://www.cherokeefamilyorthodontics.com/",
         "images": "images/cherokeeOrtho.png",
+            "width": 100,
+            "height": 100,
         "membershipLevel": 2
 
     },
@@ -71,6 +83,8 @@
         "phoneNumber": "770.599.2098",
         "url": "https://www.cobrasoutheast.com/",
         "images": "images/cobraSoutheast.png",
+            "width": 100,
+            "height": 100,
         "membershipLevel": 1 
 
     }
