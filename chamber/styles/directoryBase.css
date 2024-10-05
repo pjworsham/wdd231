@@ -37,6 +37,21 @@ header h1 {
     background-color: rgba(0, 0, 0, .5);
 }
 
+/* Call to action button 
+**************************/
+.ctaButton {
+    background-color: pink;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.ctaButton:hover {
+    background-color: green;
+}
 
 /* This is for the hamburger icon code*/
 
