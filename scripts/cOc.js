@@ -109,38 +109,42 @@ function renderCourses(filteredCourses) {
         courseList.appendChild(course)
     })
 }
- //Default render: show all courses
- renderCourses(courses);
 
- const all = document.querySelector(`#all`);
- all.addEventListener(`click`, () => {
+
+const all = document.querySelector(`#all`);
+all.addEventListener(`click`, () => {
     renderCourses(courses);
- })
+    calculateNumberOfCredits(courses);
+})
 
- const cse = document.querySelector(`#cse`);
- cse.addEventListener(`click`, () => {
+const cse = document.querySelector(`#cse`);
+cse.addEventListener(`click`, () => {
     const cseCourses = courses.filter(course => {
         return course.subject === `CSE`;
     })
     renderCourses(cseCourses);
+    calculateNumberOfCredits(cseCourses);
     
- })
+})
 
- const wdd = document.querySelector(`#wdd`);
- wdd.addEventListener(`click`, () => {
+const wdd = document.querySelector(`#wdd`);
+wdd.addEventListener(`click`, () => {
     const wddCourses = courses.filter(course => {
         return course.subject === `WDD`;
     })
     renderCourses(wddCourses);
- })
+    calculateNumberOfCredits(wddCourses);
+})
 
+function calculateNumberOfCredits(filteredCourses) {
+    const credits = document.querySelector(`#creditNumber`);
+    const total = filteredCourses.reduce((accumulator, currentNumber) => {
+        return accumulator += currentNumber.credits
+    },0)
+    credits.innerHTML = total
+}
 
-const credits = document.querySelector(`#creditNumber`);
-const total = courses.reduce((accumulator, current) => {
-    return accumulator += current.credits
-},0)
-credits.innerHTML = total
+//Default render
+renderCourses(courses);
+calculateNumberOfCredits(courses);
 
-
-
- 
