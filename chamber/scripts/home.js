@@ -11,7 +11,7 @@ const myKey = "c54961ec375d33ae24655a5f694ccd3b"
 const myLat = "36.27"
 const myLong = "-84.49"
 
-const url = `//api.openweathermap.org/data/2.5/weather?lat=${myLat}&lon=${myLong}&units=imperial&appid=${myKey}`
+const url = `https://api.openweathermap.org/data/2.5/weather?lat=${myLat}&lon=${myLong}&units=imperial&appid=${myKey}`
 
 
 async function apiFetch() {
@@ -30,7 +30,7 @@ async function apiFetch() {
 }
 
 
-    function displayResults(data) {
+    function displayResults(data) { 
         currentTemp.innerHTML = `${data.main.temp}&deg;F`;
         const iconSrc = `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`
         let desc = data.weather[0].description;
