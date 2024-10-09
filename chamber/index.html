@@ -17,7 +17,7 @@
     <meta property="og.url" content="https://www.facebook.com/pam.e.worsham/">
     <meta property="og.image:alt" content="Facebook">
 
-    <!-- <script src="scripts/directory.js" defer></script> -->
+
     <script src="scripts/home.js" defer></script>
     <link rel="stylesheet" href="styles/directoryBase.css">
     <link rel="stylesheet" href="styles/directoryLarge.css">
@@ -51,47 +51,38 @@
     </header>
     <main>
         <div class="img">
-            <img src="images/CherokeeCountyGeorgia.34.webp" alt="cherokee county" class="heroImg" width="300" height="100" loading="lazy">
+            <img src="images/CherokeeCountyGeorgia.34.webp" alt="cherokee county" class="heroImg" width="300"
+                height="100" loading="lazy">
             <a href="join.html" class="ctaButton">Sign Up Now</a>
-        </div> 
-
+        </div>
         <h2>Home</h2>
-
         <div class="container">
-            <section>
-                <div id="event">
-                    <h3>Events</h3>
-                </div>
+            <section id="event">
+                <h3>Events</h3>
             </section>
 
-            <section>
-                <div id="weather">
-                    <h3>Current Weather</h3>
-                    <div class="card">
-                        <img id="weather-icon" src="" alt="">
-                        <p>Canton, Georgia is <span id="current-temp"></span></p>
-                        <figure>
-                            <figcaption></figcaption>
-                        </figure>
-                        <p>High: <span id="high-temp"></span></p>
-                        <p>Low: <span id="low-temp"></span></p>
-                        <p>Humidity: <span id="humidity-temp"></span></p>
-                        <p>Sunrise: <span id="sunrise"></span></p>
-                        <p>Sunset: <span id="sunset"></span></p>
-                </div>
-            </section>
-            
-            <section>
-                <div id="forecast">
+            <section id="weather">
+                <h3>Current Weather</h3>
+                <div class="card">
+                    <p>Canton, Georgia: <span id="current-temp"></span></p>
+                    <img id="weather-icon" src="" alt="">
+                    <figure>
+                        <figcaption></figcaption>
+                    </figure>
+                    <p>High: <span id="high-temp"></span></p>
+                    <p>Low: <span id="low-temp"></span></p>
+                    <p>Humidity: <span id="humidity-temp"></span></p>
+                </section>
+
+
+            <section id="forecast">
                     <h3>Weather Forecast</h3>
-                    <div id="weatherForecast"></div>
-                </div>
-
-                    
-                </div>
+                    <p id="weatherForecast"></p>
+                    <p id="forecastContainer"></p>
+                    <p><span id=todayForecast></span></p>
             </section>
-        </div> 
-        
+        </div>
+
         <section>
             <h3>Company Advertisement</h3>
             <div id="advertise">
@@ -104,7 +95,8 @@
 
 
     <footer>
-        <p id="footerName">Cherokee Chamber of Commerce<br>3605 Marietta Hwy, Canton Georgia 30114<br>info@cherokeechamber.com<br>(770) 345.0400</p>
+        <p id="footerName">Cherokee Chamber of Commerce<br>3605 Marietta Hwy, Canton Georgia
+            30114<br>info@cherokeechamber.com<br>(770) 345.0400</p>
 
         <div class="social">
             <a href="https://facebook.com" target="_blank">
