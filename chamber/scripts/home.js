@@ -84,7 +84,9 @@ async function fetchForecast() {
 
 fetchForecast();
 
-
+// //***************************************
+// Get forecast function
+// ***************************************** */
 
 function displayForecastResults(dataF) { 
     displayWeatherForecast(dataF);
