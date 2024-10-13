@@ -168,6 +168,33 @@ footer {
     
 }
 
+/* 
+****************************
+This is for the modal
+**************************** */
+
+#courseDetails {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: .25;
+    padding: 1rem;
+    background-color: pink;
+    box-shadow: 0 0 3rem black;
+    width: 90%;
+    max-width: 600px;
+}
+
+::backdrop {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+dialog button {
+    position: absolute;
+    top: 23px;
+    right: 23px;
+    padding: .5rem 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
 
 
     /* Color Theme Swatches in Hex */

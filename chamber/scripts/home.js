@@ -165,9 +165,6 @@ async function displayBusinessCards() {
         filteredData.splice(randomIndex, 1);
         console.log(filteredData);
     }
-
-
-
     // console.log(data);
     createMemberCards(filteredData);
 }
