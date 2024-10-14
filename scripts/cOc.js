@@ -1,10 +1,16 @@
+// ********************************************
+// Set the current year and last modified Date
+// *********************************************
+
 let currentYear = document.querySelector("#currentYear");
 let lastModified = document.querySelector("#lastModified");
 const today = new Date();
 currentYear.textContent = today.getFullYear();
 lastModified.textContent = `Last Modification: ${document.lastModified}`;
 
-//Code for hamburger button
+// **********************************
+// Code for hamburger button
+// ***********************************
 const hamburgerElement = document.querySelector('#myButton');
 const navElement = document.querySelector('.menuLinks');
 
@@ -13,6 +19,10 @@ hamburgerElement.addEventListener('click', () => {
     hamburgerElement.classList.toggle('open');
 });
 
+
+// ******************************************
+// Array of course objects
+// *****************************************
 const courses = [
     {
         subject: 'CSE',
@@ -93,6 +103,10 @@ const courses = [
     }
 ];
 
+// **************************************************
+// function to calulate and render total credits
+// ***************************************************
+
 function renderCourses(filteredCourses) {
     const courseList = document.querySelector(`#courseList`);
     courseList.innerHTML = ``; //clear existing content
@@ -106,10 +120,18 @@ function renderCourses(filteredCourses) {
         course.innerHTML = `
             <p> ${element.subject} ${element.number} </p>
         `;
-        courseList.appendChild(course)
-    })
-}
+      
+        // Added event listener to the course container in the function
+         course.addEventListener('click', () => {
+            displayCourseDetails(element);
+        });
+        courseList.appendChild(course);
 
+    });
+}
+// **************************************************
+// filtering and rending courses based on button clicks
+// ***************************************************
 
 const all = document.querySelector(`#all`);
 all.addEventListener(`click`, () => {
@@ -144,7 +166,9 @@ function calculateNumberOfCredits(filteredCourses) {
     credits.innerHTML = total
 }
 
-//Default render
+// *****************************************
+// //Default render on page load
+// *****************************************
 renderCourses(courses);
 calculateNumberOfCredits(courses);
 
@@ -152,32 +176,37 @@ calculateNumberOfCredits(courses);
 // This is the modal display
 // ***************************
 
-const modal = document.querySelector("#courseDetails");
+const courseDetails = document.querySelector("#courseDetails");
+
 const openModal = document.querySelector(`.open-button`);
 const closeModal = document.querySelector(`.close-button`);
 
-openModal.addEventListener(`click`, () => {
-    modial.showModal();
-});
-
-openModal.addEventListener(`click`), () => {
-    modal.closest();
-}
+// openModal.addEventListener(`click`, () => {
+//     modal.showModal();
+// });
+// closeModal.addEventListener(`click`), () => {
+//     modal.close();
+// }
 
 function displayCourseDetails(course) {
     courseDetails.innerHTML = '';
-    // courseDetails.innerHTML = '
-        // <button id="closeModal">❌</button>
+    courseDetails.innerHTML = `
+        <button id="closeModal">❌</button>
+        <h2>${course.subject} ${course.number}</h2>
+        <h3>${course.title}</h3>
+        <p><strong>Credits</strong>: ${course.credits}</p>
+        <p><strong>Certificate</strong>: ${course.certificate}</p>
+        <p><strong>Technologies</strong>: ${course.technology.join(', ')}</p>
+        <p>${course.credits}</p>
+    `;
+    courseDetails.showModal();
 
-
-
-
-
-
-
-
-
-    // `; 
+       const closeModal = document.querySelector("#closeModal");
+       if (closeModal) {
+           closeModal.addEventListener("click", () => {
+               courseDetails.close(); 
+           });
+       } else {
+           console.error("Close button not found");
+       }
     }
-
-

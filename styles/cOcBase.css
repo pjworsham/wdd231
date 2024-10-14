@@ -177,7 +177,7 @@ This is for the modal
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: .25;
     padding: 1rem;
-    background-color: pink;
+    background-color: rgb(233, 172, 92);
     box-shadow: 0 0 3rem black;
     width: 90%;
     max-width: 600px;
