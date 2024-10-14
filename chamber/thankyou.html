@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pam Worsham | Home</title>
+        <meta name="description" content="Thank You | wdd231 - Web Frontend Development I">
+        <meta name="author" content="Pam Worsham">
+        <meta property="og:title" content="Cherokee Chamber of Commerce Thank You Page">
+        <meta property="og:type" content= "website" />
+        <meta property="og.description" content="Cherokee Chamber of Commerce You page">
+        <meta property="og:image"
+            content="https://www.teamleehomes.com/thumbs/800x600/r/uploads/CherokeeCountyGeorgia.34.jpg">
+        <meta property="og.image:alt" content="Cherokee County">
+        <meta property="og:url" content="https://pjworsham.github.io/wdd231/chamber/">
+        <meta property="og.url" content="https://www.facebook.com/pam.e.worsham/">
+        <meta property="og.image:alt" content="Facebook">
+    
+    
+        <script src="scripts/home.js" defer></script>
+        <link rel="stylesheet" href="styles/directoryBase.css">
+        <link rel="stylesheet" href="styles/directoryLarge.css">
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+            rel="stylesheet">
+        <link rel="icon" href="favicon.ico">
+    </head>
+<body>
+    <header>
+        <img class="logo" src="images/cherokeeLogo2.webp" alt="Cherokee logo">
+
+        <div id="title">
+            <h1>Cherokee</h1>
+            <h2>Chamber of Commerce</h2>
+        </div>
+
+        <nav>
+            <!-- button id and menu links is for hamburger icon -->
+            <button id="myButton" aria-label="button"></button>
+            <ul class="menuLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="" class="active">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <footer>
+        <p id="footerName">Cherokee Chamber of Commerce<br>3605 Marietta Hwy, Canton Georgia
+            30114<br>info@cherokeechamber.com<br>(770) 345.0400</p>
+
+        <div class="social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/facebook.png" alt="fb icon" width="100" height="100" loading="lazy">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/twitter.png" alt="twitter icon" width="100" height="100" loading="lazy">
+            </a>
+            <a href="https://www.linkedin.com/feed/" target="_blank">
+                <img src="images/linkedIn.jpeg" alt="linkedIn icon" width="100" height="100" loading="lazy">
+            </a>
+        </div>
+        <div>
+            <p>WDD231 Class Project</p>
+            <p>Pam J Worsham</p>
+            <p>&copy;<span id="currentYear"></span> Cherokee Chamber of Commerce</p>
+            <p id="lastModified"></p>
+        </div>
+
+    </footer>
+</body>
+</html>
