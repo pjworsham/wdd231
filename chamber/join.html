@@ -19,7 +19,6 @@
 
 
     <script src="scripts/home.js" defer></script>
-    <script src="scripts/join.js" defer></script>
     <link rel="stylesheet" href="styles/directoryBase.css">
     <link rel="stylesheet" href="styles/directoryLarge.css">
 
@@ -85,23 +84,53 @@
                     <input type="text" required="Organization Name" name="orgName" title="orgName"  autocomplete="organization"/>
                 </label>
 
-                <label for="membershipLevel">
-                    <h3>Membership Level:</h3>
-                        <h4>Non Profit Membership Level</h4>
-                        <h4>Bronze Membership Level</h4>
-                        <h4>Silver Membership Level</h4>
-                        <h4>Gold Membership Level</h4>
-                    </select>
-                </label>
-
                 <label for="description">
                     <h4>Organization Discription:</h4>
                     <textarea name="description" title="description"></textarea>
                 </label>
-
+                
                 <input type="hidden" name="timestamp" id="timestamp">
                 <input type="submit" value="Submit">
+
             </form>
+
+            <h3>Membership Level</h3>
+            <div id="nonProfit">
+                <h4>Non Profit Membership Level</h4>
+                <button class="openButton1">Learn More</button>
+                <dialog class="dialogBox1">
+                    <p>Individual Non-Profit: starts at $115</p>
+                    <p></p>
+                    <button class="closeButton">Close</button>
+                </dialog>
+            </div>
+            
+            <div id="bronze">
+                <h4>Bronze Membership Level</h4>
+                <button class="openButton2">Learn More</button>
+                <dialog class="dialogBox2">
+                    <p>Additinal information about this topic</p>
+                    <button class="closeButton">Close</button>
+                </dialog>
+            </div>
+
+            <div id="silver">
+                <h4>Silver Membership Level</h4>
+                <button class="openButton3">Learn More</button>
+                <dialog class="dialogBox3">
+                    <p>Additinal information about this topic</p>
+                    <button class="closeButton">Close</button>
+                </dialog>
+            </div>
+
+            <div id="gold">
+                <h4>Gold Membership Level</h4>
+                <button class="openButton4">Learn More</button>
+                <dialog class="dialogBox4">
+                    <p>Additinal information about this topic</p>
+                    <button class="closeButton">Close</button>
+                </dialog>
+            </div>
 
         </div>
 

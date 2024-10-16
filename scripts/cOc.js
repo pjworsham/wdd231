@@ -172,6 +172,8 @@ function calculateNumberOfCredits(filteredCourses) {
 renderCourses(courses);
 calculateNumberOfCredits(courses);
 
+
+
 // **************************
 // This is the modal display
 // ***************************
@@ -181,12 +183,6 @@ const courseDetails = document.querySelector("#courseDetails");
 const openModal = document.querySelector(`.open-button`);
 const closeModal = document.querySelector(`.close-button`);
 
-// openModal.addEventListener(`click`, () => {
-//     modal.showModal();
-// });
-// closeModal.addEventListener(`click`), () => {
-//     modal.close();
-// }
 
 function displayCourseDetails(course) {
     courseDetails.innerHTML = '';
@@ -210,3 +206,5 @@ function displayCourseDetails(course) {
            console.error("Close button not found");
        }
     }
+
+   

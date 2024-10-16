@@ -6,7 +6,6 @@ lastModified.textContent = `Last Modification: ${document.lastModified}`;
 
 const todayForecast = document.querySelector(`#todayForecast`)
 
-
 const currentTemp = document.querySelector(`#current-temp`);
 const weatherIcon = document.querySelector(`#weather-icon`);
 const captionDesc = document.querySelector(`figcaption`);
@@ -18,10 +17,6 @@ const humidity = document.querySelector(`#humidity-temp`)
 const myKey = "c54961ec375d33ae24655a5f694ccd3b"
 const myLat = "34.23"
 const myLong = "-84.49"
-
-
-
-
 
 // ****************
 // path to url
@@ -81,13 +76,11 @@ async function fetchForecast() {
     }
 }
 
-
 fetchForecast();
 
 // //***************************************
 // Get forecast function
 // ***************************************** */
-
 function displayForecastResults(dataF) { 
     displayWeatherForecast(dataF);
 }
@@ -140,11 +133,9 @@ const weekday = [
 // //***********************************
 // Get member card
 // ************************************ */
-
 const memberUrl = "https://pjworsham.github.io/wdd231/chamber/data/members.json"
 
 const businessCard = document.querySelector(`#businessCard`);
-
 
 async function fetchBusinessCards() {
     try {
@@ -173,7 +164,7 @@ displayBusinessCards();
 
 function createMemberCards(data) {
     const businessCard = document.querySelector(`#businessCard`);
-    businessCard.innerHTML = ``;
+    businessCard.innerHTML = '';
 
     data.forEach(member => {
         const card = document.createElement(`div`);
@@ -196,7 +187,37 @@ function createMemberCards(data) {
     });        
 }
 
+ // ****************************************
+    // for join html 
+    // *****************************************
 
+    const openButton1 = document.querySelector('.openButton1');
+    const openButton2 = document.querySelector('.openButton2');
+    const openButton3 = document.querySelector('.openButton3');
+    const openButton4 = document.querySelector('.openButton4');
+    const dialogBox1 = document.querySelector('.dialogBox1');
+    const dialogBox2 = document.querySelector('.dialogBox2');
+    const dialogBox3 = document.querySelector('.dialogBox3');
+    const dialogBox4 = document.querySelector('.dialogBox4');
+    const closeButton = document.querySelector('.closeButton');
+
+
+    function addDialog(openButton, dialogBox) {
+        openButton.addEventListener('click', () => {
+            dialogBox.showModal();
+    });
+    }  
+    
+    addDialog(openButton1, dialogBox1);
+    addDialog(openButton2, dialogBox2);
+    addDialog(openButton3, dialogBox3);
+    addDialog(openButton4, dialogBox4);
+
+    
+
+    closeButton.addEventListener('click', () => {
+        dialogBox.close();
+    })
 
 
 
