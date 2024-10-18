@@ -196,38 +196,38 @@ if (businessCard) {
 const membershipLevels = [
     {
         "name": "Non-Profit",
-        "cost": "117",
+        "cost": "$100 annually",
         "benefits": [
-            "a",
-            "b",
-            "c"
+            "Your business listed in online directory",
+            "One-time free copy of member mailing labels",
+            "Opportunity to email members monthly via newsletter"
         ]
     },
     {
         "name": "Bronze",
-        "cost": "200",
+        "cost": "500 annually",
         "benefits": [
-            "d",
-            "e",
-            "f"
+            "Your business listed in additional categories in the online directory",
+            "Enhanced marketing support",
+            "Your business displayed in outdoor kiosk year around"
         ]
     },
     {
         "name": "Silver",
-        "cost": "250",
+        "cost": "200 monthly",
         "benefits": [
-            "g",
-            "h",
-            "i"
+            "Your business featured in our Social Media challenges & contests",
+            "3 Free advertisements in select monthly newsletters",
+            "Priority placement in Welcome Center lobby & outdoor kiosk"
         ]
     },
     {
         "name": "Gold",
-        "cost": "300",
+        "cost": "400 monthly",
         "benefits": [
-            "j",
-            "k",
-            "l"
+            "Your business logo placed as permanent stamp on Chamber website homepage",
+            "Your logo included in Chamber signature on all email communication",
+            "Free advertisement in every newsletter release"
         ]
     }
 ]

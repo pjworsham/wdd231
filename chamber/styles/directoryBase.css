@@ -204,7 +204,6 @@ footer {
     font-size: 10px;
     background-color: #68A69B;
     color: white;
-    padding-top: 1px;
     padding-bottom: 1px; 
     padding-left: 1rem;  
     text-align: center; 
@@ -219,3 +218,36 @@ footer .social img {
     text-align: center;
 }
 
+/* //     *************************************
+//    this is the css for the join page
+//    **************************************** */
+
+#membership-form, #membership-levels {
+    font-size: 1.25rem;
+    text-align: center;
+    padding-top: 1rem;
+} 
+.formContainer h4 {
+    margin: 0 auto;
+    padding-top: .75rem;
+}
+.formContainer input {
+    background-color: rgb(232, 232, 238);
+    box-shadow: 0 4px 10px rgb(240, 213, 181);
+    width: 100%;
+    
+}
+.formContainer {
+    max-width: 320px;
+}
+
+.membership-levels div {
+    margin-top: 1rem;
+    background-color: rgb(240, 213, 181);
+    border-top-right-radius: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+.open-button {
+    text-align: center;
+}

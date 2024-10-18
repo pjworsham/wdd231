@@ -207,4 +207,6 @@ function displayCourseDetails(course) {
        }
     }
 
-   
+
+
+
