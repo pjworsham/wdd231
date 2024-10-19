@@ -90,7 +90,7 @@ li.current-menu-item a {
 
 ul.menuLinks {
     display: none;
-    list-style-type: none; /*effects large */
+    list-style-type: none;
 }
 
 #myButton.open::before {

@@ -76,14 +76,14 @@
         .formContainer {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            max-width: 100%;
-            
+            max-width: 100%;     
         }
 
         #membership-form {
             text-align: left;
             margin-left: 2rem;
             margin-bottom: 1rem;
+
         }
 
         .membership-levels div {
