@@ -227,14 +227,14 @@ footer .social img {
     text-align: center;
     padding-top: 1rem;
 } 
-.formContainer h4 {
-    margin: 0 auto;
+.formContainer input {
+    margin-bottom: 1rem;
     padding-top: .75rem;
 }
 .formContainer input {
     background-color: rgb(232, 232, 238);
-    box-shadow: 0 4px 10px rgb(240, 213, 181);
-    width: 100%;
+    box-shadow: 0 4px 15px rgb(240, 213, 181);
+    width: 98%;
     
 }
 .formContainer {
