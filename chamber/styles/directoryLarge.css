@@ -65,44 +65,43 @@
             margin: auto;
         }
          
-          
-           
+        
+        /* this is for the join page */
+       
+        form {
+            margin-left: 2rem;
+    
+        }
+
+        .formContainer {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            max-width: 100%;
             
+        }
 
+        #membership-form {
+            text-align: left;
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+        }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        .membership-levels div {
+            background-color: rgb(236, 229, 219);
+            margin-left: 2rem;
+            margin-right: 1rem;
+        }
+        #membership-levels {
+            margin: 0 auto;
+            padding-bottom: 0;
+            padding-top: 0;
+            font-size: 1.5rem;
+        
+        }
+        #thankYou {
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            padding-left: 1rem;
+            
+        }
 }

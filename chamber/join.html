@@ -10,7 +10,8 @@
     <meta property="og:title" content="Cherokee Chamber of Commerce Join Page">
     <meta property="og:type" content="website">
     <meta property="og:description" content="Cherokee Chamber of Commerce Join page">
-    <meta property="og:image" content="https://www.teamleehomes.com/thumbs/800x600/r/uploads/CherokeeCountyGeorgia.34.jpg">
+    <meta property="og:image"
+        content="https://www.teamleehomes.com/thumbs/800x600/r/uploads/CherokeeCountyGeorgia.34.jpg">
     <meta property="og:image:alt" content="Cherokee County">
     <meta property="og:url" content="https://pjworsham.github.io/wdd231/chamber/">
     <meta property="og:url" content="https://www.facebook.com/pam.e.worsham/">
@@ -46,40 +47,44 @@
         </nav>
     </header>
     <main>
-        <h2 id="membership-form">Membership Application Form</h2>
+        
         <div class="formContainer">
             <form method="get" action="thankyou.html">
-
+                
                 <label>
+                    <b><span style="font-size: 1.5rem;">Membership Application Form</span></b><br>
                     First Name:
                     <input type="text" name="firstName" title="name" autocomplete="given-name" required>
                 </label>
-
+                
                 <label>
                     Last Name:
                     <input type="text" name="LastName" title="name" autocomplete="family-name" required>
                 </label>
-
+                
                 <label>
                     Organizational Title:
-                    <input type="text" name="orgTitle" title="Applicant's Organizational Title" autocomplete="organization-title" pattern="[A-Za-z-\s]{7,}">
+                    <input type="text" name="orgTitle" title="Applicant's Organizational Title"
+                    autocomplete="organization-title" pattern="[A-Za-z-\s]{7,}">
                 </label>
-
+                
                 <label>
                     Email:
-                    <input type="email" name="email" title="email" autocomplete="email" placeholder="example@email.com" required>
+                    <input type="email" name="email" title="email" autocomplete="email" placeholder="example@email.com"
+                    required>
                 </label>
-
+                
                 <label>
                     Mobile Phone Number:
-                    <input type="number" name="mobile" title="mobile" autocomplete="on" placeholder="012-345-6789" required>
+                    <input type="number" name="mobile" title="mobile" autocomplete="on" placeholder="012-345-6789"
+                    required>
                 </label>
-
+                
                 <label>
                     Organization's Name:
-                    <input type="text" name="orgName" title="orgName"  autocomplete="on">
+                    <input type="text" name="orgName" title="orgName" autocomplete="on">
                 </label>
-
+                
                 <label>
                     Organization Discription:
                     <textarea name="description" title="description"></textarea>
@@ -87,12 +92,14 @@
                 
                 <input type="hidden" name="timestamp" id="timestamp">
                 <input type="submit" value="Submit Application">
-
+                
             </form>
             
-            <h3 id="membership-levels">Membership Level</h3>
-            <div class="membership-levels"></div>
-                <dialog class="dialog-box"></dialog>
+            
+            <div class="membership-levels">
+                <h3 id="membership-levels">Membership Level</h3>
+            </div>
+            <dialog class="dialog-box"></dialog>
         </div>
     </main>
 

@@ -79,7 +79,7 @@ ul.menuLinks li a {
     display: block;
     padding: .75rem 2vw;
     color: white;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 600;
     text-decoration: none;
 }
@@ -111,7 +111,10 @@ nav {
 }
 .menuLinks {
     touch-action: auto;
+    margin: 0 auto;
+    margin-bottom: 1rem;
 }
+
 
 
 /* This is for my events and weather section */
@@ -241,13 +244,31 @@ footer .social img {
     max-width: 320px;
 }
 
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 .membership-levels div {
     margin-top: 1rem;
-    background-color: rgb(240, 213, 181);
+    background-color: rgb(236, 229, 219);
     border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
     padding-left: 1rem;
     padding-bottom: 1rem;
+    animation: fadeIn 2s;
 }
+
 .open-button {
     text-align: center;
+}
+
+#thankYou {
+    font-size: 25px;
+    padding-left: 1rem;
+    
 }
