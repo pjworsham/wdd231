@@ -19,6 +19,19 @@ if (todayForecast) {
     const myKey = "c54961ec375d33ae24655a5f694ccd3b"
     const myLat = "34.23"
     const myLong = "-84.49"
+
+
+
+    // **********************************
+    // Code for hamburger button
+    // ***********************************
+    const hamburgerElement = document.querySelector('#myButton');
+    const navElement = document.querySelector('.menuLinks');
+
+    hamburgerElement.addEventListener('click', () => {
+        navElement.classList.toggle('open');
+        hamburgerElement.classList.toggle('open');
+    });
     
     // ****************
     // path to url

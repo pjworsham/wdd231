@@ -84,3 +84,25 @@ listView.addEventListener(`click`, () => {
 
 createMemberCards();
 
+// **************************************
+// Discover Page
+// **************************************
+
+const welcomeMessage = document.querySelector('#welcomeMessage');
+
+const todayUTC = new Date(Date.UTC(today.getFullYear(), today.getMonth(), today.getDate()));
+const lastVisited = new Date(localStorage.getItem('lastVisited')) || todayUTC;
+const msToDays = 86400000;
+
+if (welcomeMessage) {
+    if (lastVisited.toString() == todayUTC.toString()) {
+        welcomeMessage.textContent = `Welcome! Let us know if you have any questions.`;
+    } else if (todayUTC.getDate() - 1 == lastVisited.getDate()) {
+        welcomeMessage.textContent = `Back so soon! Awesome!`;
+    } else {
+        const daysSince = (Date.now() - lastVisited.getTime()) / msToDays;
+        welcomeMessage.innerHTML = `You last visited ${Math.floor(daysSince)} days ago.`;
+    }
+
+    localStorage.setItem('lastVisited', todayUTC);
+}
