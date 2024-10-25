@@ -2,23 +2,23 @@
 
 :root {
  
-    --primary-color: #9dd9d2;
-    --secondary-color: #79bcb8;
-    --accent1-color: #5ec2b7;
-    --accent2-color: #2ca6a4;
-    --accent3-color: #3aa7a3;
+    --primary-color: #bcc2b7;
+    --secondary-color: #99b9c0;
+    --accent1-color: #e5d8c7;
+    --accent2-color: #63a1a0;
+    
     
     --heading-font: "Roboto";
     --paragraph-font: Montserrat, sans-serif;
   
    
-    --headline-color-on-white: #3aa7a3;  
+    --headline-color-on-white: #63a1a0;  
     --headline-color-on-color:  black; 
     --paragraph-color-on-white: black;  
     --paragraph-color-on-color: #f2f2f2; 
-    --paragraph-background-color:  #9dd9d2  ;
+    --paragraph-background-color:  #99b9c0  ;
     --nav-link-color: #f2f2f2;
-    --nav-background-color: #3aa7a3;
+    --nav-background-color: #bcc2b7;
     --nav-hover-link-color: #f2f2f2;
     --nav-hover-background-color: #9dd9d2;
   }
