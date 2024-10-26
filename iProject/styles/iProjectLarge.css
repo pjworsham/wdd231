@@ -47,10 +47,13 @@
     
     #welcome {
         position: absolute;
-        top: 150px;
+        top: 160px;
         padding-left: 1rem;
         padding-right: 1.5rem;
 
+    }
+    main {
+        background-color: #99b9c0;
     }
 
     footer {
