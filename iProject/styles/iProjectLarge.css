@@ -15,12 +15,49 @@
         background-color: #b9bdc0;
     }
 
+   .container p {
+        font-size: 2.5rem;
+        margin: 0 auto;
+        margin-top: .5rem;
+   }
+   nav {
+    grid-column: span 2;
+    text-align: center;
+    display: flex;
+    margin-left: 5rem;
+   }
+   ul.menuLinks li a {
+    font-size: 1.5rem;
+   }
 
+   .hero-img {
+    width: 100%;
+   }
 
+   h2 {
+    font-size: 2rem;
+   }
+   
+   .social img {
+    padding-left: 2rem;
+    width: 10%;
+    height: auto;
+    padding-top: 2rem;
+    }
+    
+    #welcome {
+        position: absolute;
+        top: 150px;
+    }
 
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    #footerName {
+        padding: 0;
+    }
 
-}
-
-
+ }
 
     
