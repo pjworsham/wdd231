@@ -49,7 +49,49 @@
 
     </header>
     <main>
-
+        <div class="gsContainer">
+            <form method="get" action="gsThankYou.html">
+                
+                <label>
+                    <b><span >Resident Contact Info</span></b><br>
+                    First Name:
+                    <input type="text" name="firstName" title="name" autocomplete="given-name" required>
+                </label>
+                
+                <label>
+                    Last Name:
+                    <input type="text" name="LastName" title="name" autocomplete="family-name" required>
+                </label>
+                
+                <label>
+                    Email:
+                    <input type="email" name="email" title="email" autocomplete="email" placeholder="example@email.com"
+                    required>
+                </label>
+                
+                <label>
+                    Mobile Phone Number:
+                    <input type="tel" name="mobile" title="mobile" autocomplete="tel" placeholder="111-456-7891"
+                    required>
+                </label>
+                
+                <label>
+                    Request Details:
+                    <textarea name="reqDetails" title="request"></textarea>
+                </label>
+                <label>
+                    <input type="hidden" name="timestamp" id="timestamp">
+                    <input type="submit" value="Submit Request">
+                </label>
+                
+            </form>
+            
+            
+            <div class="rescources">
+                <h3 id="res-resources">Resident Resources</h3>
+            </div>
+            <dialog class="dialog-box"></dialog>
+        </div>
 
 
 

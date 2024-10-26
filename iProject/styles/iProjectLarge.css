@@ -59,11 +59,14 @@
     footer {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        font-size: .88rem;
     }
     #footerName {
         padding: 0;
     }
-
+    .info-paragraph {
+        font-size: 1.25rem;
+    }
  }
 
     

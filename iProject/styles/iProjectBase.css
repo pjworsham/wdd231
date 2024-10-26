@@ -1,15 +1,15 @@
-
-
-
-
-/* This is for the hamburger icon code*/
+/***********************************
+ This is for the hamburger icon code
+ ************************************/
 
 #myButton::before {
     content: "\2630";
     color: rgb(22, 21, 21);
 }
 
-/* the actual hamburger icon */
+/************************************
+ the actual hamburger icon 
+ *************************************/
 #myButton {
     font-size: 2rem;
     background: none;
@@ -90,11 +90,33 @@ h2 {
     padding-right: 1rem;
 }
 
+/***************************
+This is the footer 
+****************************/
+footer {
+    text-align: center;
+    font-size: .80rem;
+    font-weight: 600;
+}
+#footerName {
+    padding-top: 1rem ;
+}
+.lastMod p {
+    margin: 0 auto;  
+}
+.lastMod {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.social img {
+    padding-left: 2rem;
+    width: 12%;
+    height: auto;
+}
 
-
- /*********************
-  This is the image 
-  **********************/
+ /**********************************
+  This is the image for my home page
+  **********************************/
 .hero-img img {
     width: 100%;
     height: auto;
@@ -112,27 +134,24 @@ h2 {
     padding-bottom: .75rem;
 }
 
-/***************************
- This is the footer 
- ****************************/
- footer {
-    text-align: center;
-    font-size: .80rem;
-    font-weight: 600;
- }
- #footerName {
-    padding-top: 1rem ;
- }
-.lastMod p {
-    margin: 0 auto;  
- }
- .lastMod {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
- }
- .social img {
-    padding-left: 2rem;
-    width: 12%;
-    height: auto;
- }
+/************************************
+ This is the Resident Rescources page 
+ *************************************/
+
+ 
+.gsContainer input {
+    margin-bottom: 1rem;
+    padding-top: .75rem;
+}
+.gsContainer input {
+    background-color: rgb(232, 232, 238);
+    box-shadow: 0 4px 15px rgb(240, 213, 181);
+    width: 98%;
+    
+}
+.gsContainer {
+    max-width: 320px;
+}
+
+
 
