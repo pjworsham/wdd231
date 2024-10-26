@@ -138,20 +138,53 @@ footer {
  This is the Resident Rescources page 
  *************************************/
 
- 
+span {
+    font-size: 1.25rem;
+}
+
 .gsContainer input {
     margin-bottom: 1rem;
     padding-top: .75rem;
-}
-.gsContainer input {
+    border-radius: .75rem;
     background-color: rgb(232, 232, 238);
     box-shadow: 0 4px 15px rgb(240, 213, 181);
-    width: 98%;
-    
+    width: 98%;   
 }
+
 .gsContainer {
     max-width: 320px;
+    background-color: rgb(243, 234, 223);
+}
+#membership-form, #membership-levels {
+    font-size: 1.25rem;
+    text-align: center;
+    padding-top: 1rem;
+} 
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.membership-levels div {
+    margin-top: 1rem;
+    background-color: rgb(122, 216, 223);
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    animation: fadeIn 2s;
 }
 
+.open-button {
+    text-align: center;
+}
 
+#thankYou {
+    font-size: 25px;
+    padding-left: 1rem;
+    
+}
 
