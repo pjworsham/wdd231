@@ -197,15 +197,15 @@ function displayCourseDetails(course) {
     `;
     courseDetails.showModal();
 
-       const closeModal = document.querySelector("#closeModal");
-       if (closeModal) {
-           closeModal.addEventListener("click", () => {
-               courseDetails.close(); 
-           });
-       } else {
-           console.error("Close button not found");
-       }
+    const closeModal = document.querySelector("#closeModal");
+    if (closeModal) {
+        closeModal.addEventListener("click", () => {
+            courseDetails.close(); 
+        });
+    } else {
+        console.error("Close button not found");
     }
+}
 
 
 

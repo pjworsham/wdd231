@@ -139,7 +139,7 @@ footer {
  *************************************/
 
 span {
-    font-size: 1.25rem;
+    font-size: 1.50rem;
 }
 
 .gsContainer input {
@@ -148,13 +148,18 @@ span {
     border-radius: .75rem;
     background-color: rgb(232, 232, 238);
     box-shadow: 0 4px 15px rgb(240, 213, 181);
-    width: 98%;   
+    width: 100%;
+    height: auto;   
 }
 
 .gsContainer {
-    max-width: 320px;
-    background-color: rgb(243, 234, 223);
+    max-width: 320px;   
 }
+
+.label {
+    font-size: 20px;
+}
+
 #membership-form, #membership-levels {
     font-size: 1.25rem;
     text-align: center;
@@ -177,6 +182,10 @@ span {
     padding-bottom: 1rem;
     animation: fadeIn 2s;
 }
+.side-bar {
+    background-color: rgb(245, 218, 223);
+    border-radius: .5rem;
+}
 
 .open-button {
     text-align: center;
@@ -187,4 +196,36 @@ span {
     padding-left: 1rem;
     
 }
+
+
+
+
+
+/* ****************************
+Community Events Page 
+**************************** */
+.events-container {
+    background-color: rgb(247, 244, 240);
+}
+
+.localEvents {
+    background-color: rgb(247, 244, 240); 
+    margin: 0 auto;
+}
+
+.event-item {
+    background-color: rgb(243, 234, 223);
+    padding: 10px;
+    border: 2px solid #ccc;
+    cursor: pointer;
+    width: 85%;
+    box-shadow: 3px 2px 8px rgba(0,0,0,0.2);
+    border-radius: 1rem;
+    padding: 1rem 1rem;
+    margin: 1rem .5rem;
+    
+}
+
+
+
 

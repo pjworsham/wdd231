@@ -67,6 +67,19 @@
     .info-paragraph {
         font-size: 1.25rem;
     }
+
+    /************************************
+    This is the Resident Rescources page 
+    *************************************/
+
+    .gsContainer input {
+        background-color: pink;
+        width: 100%;
+    }
+
+
+
+
  }
 
     
