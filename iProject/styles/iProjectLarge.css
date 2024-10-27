@@ -73,12 +73,54 @@
     *************************************/
 
     .gsContainer input {
-        background-color: pink;
+        background-color: #ece8e3;
         width: 100%;
+        height: auto;
+    }
+    .gsContainer {
+        background-color: white;
+    }
+    .side-bar {
+        background-color: #d5ecf1;
+        border-radius: .5rem;
+        padding: 10px;
+        margin-top: 1rem;
+        font-size: 18px;   
     }
 
 
+      /************************************
+    This is the Community Events page 
+    *************************************/
+    .gsContainer {
+        background-color: white;
+    }
+    .side-bar {
+        background-color: white;
+        border-radius: .5rem;
+        width: 265px;
+        padding: 20px;
+        border: 1px solid black;
+        position: fixed;
+        top: 55px;
+        right: 20px;
+        box-shadow: 0 4px 8px;
+        padding: 2px;
+    }
 
+
+    /**************************
+     Local Events 
+     ******************************/
+
+    .eventsContainer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        background-color: rgb(240, 237, 237);
+    }
+    .event-item {
+        font-size: 1.2rem;
+    }
 
  }
 
