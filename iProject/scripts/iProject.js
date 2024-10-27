@@ -126,7 +126,7 @@ if (thankYouSelector) {
 
     thanksData.innerHTML = `
         <p><span class="thank-you-label">First Name: </span>${show("firstName")}</p>
-        <p><span class="thank-you-label">Last Name: </span>${show("lastName")}</p>
+        <p><span class="thank-you-label">Last Name: </span>${show("LastName")}</p>
         <p><span class="thank-you-label">Email: </span>${show("email")}</p>
         <p><span class="thank-you-label">Phone Number: </span>${show("mobile")}</p>
     `;
